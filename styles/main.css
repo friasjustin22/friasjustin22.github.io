@@ -33,3 +33,7 @@ h3 {
 .list {
     line-height: 1.5em;
 }
+.copyright {
+    text-align: center;
+    font-size: 80%;
+}
