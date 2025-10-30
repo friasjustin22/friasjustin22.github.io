@@ -1,0 +1,97 @@
+body {
+  width: 95%;
+  margin: 15px auto;
+  font-family: Arial, sans-serif;
+  background-image: url('https://www.transparenttextures.com/patterns/brick-wall.png');
+  background-repeat: repeat-y;
+  background-position: right;
+  background-attachment: fixed;
+  border: 2px solid #333;
+}
+
+nav {
+  background-color: #222;
+  border-bottom: 2px solid #444;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 10px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+}
+
+article {
+  width: 75%;
+  float: left;
+  padding: 15px;
+  border-right: 2px solid #999;
+}
+
+aside {
+  width: 20%;
+  position: fixed;
+  right: 10px;
+  top: 100px;
+  border-left: 2px solid #999;
+  padding-left: 10px;
+  background-color: #f5f5f5;
+}
+
+aside ul {
+  list-style-type: circle;
+}
+
+aside ul li {
+  margin: 10px 0;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+aside ul li a:hover {
+  color: #0077cc;
+}
+
+.float-img {
+  float: left;
+  margin: 10px 15px 10px 0;
+  width: 150px;
+  border: 1px solid #ccc;
+}
+
+.first-letter {
+  font-size: 2em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  border-top: 2px solid #444;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+footer a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
